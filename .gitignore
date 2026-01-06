@@ -1,0 +1,73 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# -----------------------------
+# PyInstaller
+# -----------------------------
+# Build artifacts
+build/
+dist/
+*.spec
+
+# PyInstaller temp files
+*.manifest
+*.dll
+*.pkg
+*.toc
+*.pyz
+*.zip
+
+# Bootloader and cache
+*.bak
+*.tmp
+
+# -----------------------------
+# OS-specific
+# -----------------------------
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# -----------------------------
+# IDEs / Editors
+# -----------------------------
+# VS Code
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+
+# -----------------------------
+# Project-specific
+# -----------------------------
+# Backup repository created by the app
+Backup_Repository/
+
+# Local config files (if added later)
+config.json
+settings.json
+
+# Ignore compiled executables
+*.exe
